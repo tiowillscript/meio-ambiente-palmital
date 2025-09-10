@@ -3071,3 +3071,10 @@ input, select, textarea {
 			}
 
 	}
+
+/* MINHA NOVA ALTERAÇÃO: Deixa o texto da seção Coleta+ (promo) branco */
+#promo-wrapper h2,
+#promo-wrapper p,
+#promo-wrapper strong {
+	color: #fff;
+}
