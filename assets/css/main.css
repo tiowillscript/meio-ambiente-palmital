@@ -144,8 +144,9 @@ input, select, textarea {
 		border-bottom: dotted 1px #62676c;
 	}
 
+		/* MINHA ALTERAÇÃO 1: Mudei a cor do link ao passar o mouse para verde */
 		a:hover {
-			color: #f35858;
+			color: #2E7D32;
 			border-bottom-color: rgba(255, 255, 255, 0);
 		}
 
@@ -218,9 +219,10 @@ input, select, textarea {
 		margin-bottom: 1.5em;
 	}
 
+		/* MINHA ALTERAÇÃO 2: Mudei a cor do subtítulo para um verde mais escuro */
 		header > p {
 			display: block;
-			color: #f35858;
+			color: #1B5E20;
 			padding: 0.75em 0 1em 0;
 			font-size: 1.5em;
 			line-height: 1.5em;
@@ -2016,13 +2018,14 @@ input, select, textarea {
 		outline: 0;
 	}
 
+		/* MINHA ALTERAÇÃO 3: Mudei a cor do botão ao passar o mouse para verde */
 		input[type="button"]:hover,
 		input[type="submit"]:hover,
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			color: #f35858;
-			border-color: rgba(243, 88, 88, 0.5);
+			color: #2E7D32;
+			border-color: rgba(46, 125, 50, 0.5);
 		}
 
 /* Icons */
@@ -2092,23 +2095,21 @@ input, select, textarea {
 			background: #f6f8fb url("images/image-wrapper.svg");
 		}
 
+	/* MINHA ALTERAÇÃO 4: Este é o bloco principal que define o fundo do topo do site. */
 	#header-wrapper {
 		position: relative;
 		padding: 4em 0 2em 0;
-		background-image: url("images/header.svg");
-		background-image: url("images/overlay.png"), url("images/header.svg"), -moz-linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
-		background-image: url("images/overlay.png"), url("images/header.svg"), -webkit-linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
-		background-image: url("images/overlay.png"), url("images/header.svg"), -ms-linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
-		background-image: url("images/overlay.png"), url("images/header.svg"), linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
-		background-color: #f08c89;
-		background-size: 100% 620%;
-		background-size: 128px 128px, 100% 620%, auto;
-		background-repeat: repeat, no-repeat, no-repeat;
+		background-color: #005a50; /* Cor de fundo caso a imagem não carregue */
+		background-image: url("../../images/promo.jpg"); /* A linha que define sua imagem */
+		background-size: cover; /* Faz a imagem cobrir toda a área */
+		background-position: center center; /* Centraliza a imagem */
+		background-repeat: no-repeat; /* Garante que a imagem não se repita */
 	}
+
 
 	.homepage #header-wrapper {
 		padding: 10em 0 6em 0;
-		background-size: 128px 128px, 100% 100%, auto;
+		background-size: cover; /* MINHA ALTERAÇÃO: Garante que a imagem sempre cubra, mesmo na homepage */
 	}
 
 	#promo-wrapper {
@@ -2240,8 +2241,9 @@ input, select, textarea {
 				border-top: 0;
 			}
 
+			/* MINHA ALTERAÇÃO 5: Cor do item de menu dropdown para verde */
 			.dropotron li.active > a, .dropotron li.active > span {
-				color: #f35858;
+				color: #2E7D32;
 			}
 
 		.dropotron.level-0 {
@@ -2300,10 +2302,11 @@ input, select, textarea {
 			line-height: 1.5em;
 		}
 
+		/* MINHA ALTERAÇÃO 6: Cor do botão principal para um verde que combina com o fundo */
 		#hero .button {
 			background: #fff;
 			border-color: rgba(255, 255, 255, 0);
-			color: #f08c89;
+			color: #1B5E20;
 			font-size: 1.25em;
 		}
 
